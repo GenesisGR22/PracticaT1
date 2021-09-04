@@ -156,19 +156,6 @@ namespace T1Practica.clases
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             return mil + cen + dec + uni;
 
         }
