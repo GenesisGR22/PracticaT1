@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1Practica.class", "T1Practica.class\T1Practica.class.csproj", "{5B419678-C5C3-4794-B2BA-BE9D354BBFC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T1Practica.clases", "T1Practica.class\T1Practica.clases.csproj", "{5B419678-C5C3-4794-B2BA-BE9D354BBFC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1Practica.Test", "T1Practica.Test\T1Practica.Test.csproj", "{4A6453D4-A5B6-4E52-9397-F695140BE3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T1Practica.Test", "T1Practica.Test\T1Practica.Test.csproj", "{4A6453D4-A5B6-4E52-9397-F695140BE3FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
