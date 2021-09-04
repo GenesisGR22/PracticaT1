@@ -14,9 +14,9 @@ namespace T1Practica.Test
         {
             var juego = new Juego();
 
-            var result = juego.Jugar(new Jugador { Nombre = "Genesis", Eleccion =  }, new Jugador { Nombre = "Rubi" });
+            var result = juego.Jugar(new Jugador { Nombre = "Genesis", Eleccion = Tipos.PIEDRA.ToString() }, new Jugador { Nombre = "Rubi", Eleccion = Tipos.PIEDRA.ToString() });
 
-            Assert.AreEqual("I", result);
+            Assert.AreEqual("", result);
         }
     }
 }

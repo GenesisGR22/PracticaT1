@@ -4,7 +4,7 @@ using System.Text;
 
 namespace T1Practica.clases
 {
-    enum Tipos
+    public enum Tipos
     {
         PIEDRA,
         PAPEL,
