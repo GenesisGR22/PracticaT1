@@ -103,36 +103,36 @@ namespace T1Practica.Test
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(80);
+            var result = romano.numRomano(500);
 
-            Assert.AreEqual("LXXX", result);
+            Assert.AreEqual("D", result);
         }
         [Test]
         public void Caso12()
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(80);
+            var result = romano.numRomano(100);
 
-            Assert.AreEqual("LXXX", result);
+            Assert.AreEqual("C", result);
         }
         [Test]
         public void Caso13()
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(80);
+            var result = romano.numRomano(200);
 
-            Assert.AreEqual("LXXX", result);
+            Assert.AreEqual("CC", result);
         }
         [Test]
         public void Caso14()
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(80);
+            var result = romano.numRomano(250);
 
-            Assert.AreEqual("LXXX", result);
+            Assert.AreEqual("CCL", result);
         }
     }
 }

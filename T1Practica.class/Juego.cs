@@ -8,7 +8,104 @@ namespace T1Practica.clases
     {
         public string Jugar(Jugador jugador1, Jugador jugador2) {
 
-            return "";
+			 
+			int jugada1 = eleccionInt(jugador1.Eleccion);
+			int jugada2 = 0;
+			int Computador = 0;
+
+			string resultado = "";
+
+
+			
+			int x = eleccionInt(jugador2.Eleccion);
+			resultado ="La jugada1 jugó" + jugada1;
+
+			switch (x)
+			{
+				case 1:
+					if (x == jugada1)
+					{
+						jugada2 = jugada2 + 0;
+						Computador = Computador + 0;
+						resultado = "Empate";
+					}
+					else if (x > jugada1)
+					{
+						jugada2 = jugada2 + 1;
+						resultado ="Ganó";
+					}
+					else
+					{
+						Computador = Computador + 1;
+						resultado ="Perdió";
+					}
+
+					break;
+				case 2:
+					if (x == jugada1)
+					{
+						jugada2 = jugada2 + 0;
+						Computador = Computador + 0;
+						resultado ="Empate";
+					}
+					else if (x > jugada1)
+					{
+						jugada2 = jugada2 + 1;
+						resultado ="Ganó";
+					}
+					else
+					{
+						Computador = Computador + 1;
+						resultado ="Perdió";
+					}
+
+					break;
+				case 3:
+					if (x == jugada1)
+					{
+						jugada2 = jugada2 + 0;
+						Computador = Computador + 0;
+						resultado ="Empate";
+					}
+					else if (x > jugada1)
+					{
+						jugada2 = jugada2 + 1;
+						resultado ="Ganó";
+					}
+					else
+					{
+						Computador = Computador + 1;
+						resultado ="Perdió";
+					}
+
+					break;
+
+
+
+			}
+			return resultado;
+
+		}
+
+
+		private int eleccionInt(string valor) {
+			int rpta = 0;
+            switch (valor)
+            {
+                case "PIEDRA":
+					rpta  =  1;
+                    break;
+
+				case "PALE":
+					rpta = 2;
+					break;
+				case "TIJERA":
+					rpta = 3;
+					break;
+				default: rpta = 0; break;
+			}
+
+			return rpta;
         }
-    }
+	}
 }

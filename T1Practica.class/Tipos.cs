@@ -6,6 +6,7 @@ namespace T1Practica.clases
 {
     public enum Tipos
     {
+        NADA,
         PIEDRA,
         PAPEL,
         TIJERA
