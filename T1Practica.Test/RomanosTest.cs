@@ -13,18 +13,18 @@ namespace T1Practica.Test
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(1);
+            var result = romano.numRomano(-1);
  
-            Assert.AreEqual("I", result);
+            Assert.AreEqual("no válido", result);
         }
         [Test]
         public void Caso02()
         {
             var romano = new Romanos();
 
-            var result = romano.numRomano(2);
+            var result = romano.numRomano(1001);
 
-            Assert.AreEqual("II", result);
+            Assert.AreEqual("no válido", result);
         }
         [Test]
         public void Caso03()
