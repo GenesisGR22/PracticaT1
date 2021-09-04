@@ -18,7 +18,7 @@ namespace T1Practica.clases
 
 			
 			int x = eleccionInt(jugador2.Eleccion);
-			resultado ="La jugada1 jugó" + jugada1;
+			resultado ="Ganó "+ jugador2.Nombre.ToString();
 
 			switch (x)
 			{
@@ -32,12 +32,12 @@ namespace T1Practica.clases
 					else if (x > jugada1)
 					{
 						jugada2 = jugada2 + 1;
-						resultado ="Ganó";
+						resultado ="Ganó " + jugador1.Nombre.ToString();
 					}
 					else
 					{
 						Computador = Computador + 1;
-						resultado ="Perdió";
+						resultado ="Perdió " + jugador1.Nombre.ToString();
 					}
 
 					break;
@@ -46,17 +46,17 @@ namespace T1Practica.clases
 					{
 						jugada2 = jugada2 + 0;
 						Computador = Computador + 0;
-						resultado ="Empate";
+						resultado = "Empate";
 					}
 					else if (x > jugada1)
 					{
 						jugada2 = jugada2 + 1;
-						resultado ="Ganó";
+						resultado ="Ganó " + jugador1.Nombre.ToString();
 					}
 					else
 					{
 						Computador = Computador + 1;
-						resultado ="Perdió";
+						resultado ="Perdió " + jugador1.Nombre.ToString();
 					}
 
 					break;
@@ -70,12 +70,12 @@ namespace T1Practica.clases
 					else if (x > jugada1)
 					{
 						jugada2 = jugada2 + 1;
-						resultado ="Ganó";
+						resultado ="Ganó " + jugador2.Nombre.ToString();
 					}
 					else
 					{
 						Computador = Computador + 1;
-						resultado ="Perdió";
+						resultado ="Perdió " + jugador1.Nombre.ToString();
 					}
 
 					break;
